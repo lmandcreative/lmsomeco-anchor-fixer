@@ -1,6 +1,6 @@
 {
   "name": "@lmsomeco/anchor-fixer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fixes anchor links when using vue hash router",
   "main": "index.js",
   "scripts": {

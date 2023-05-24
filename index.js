@@ -13,10 +13,16 @@ const anchorFixer = {
     router.beforeEach((to, from, next) => {
       if (router.hasRoute(to.name)) {
         next();
+        if (to.hash) {
+          window.scrollTo(0, document.querySelector(to.hash).offsetTop);
+        }
         return;
       }
       let id = to.path.replace("/", "");
       next(from.path + "#" + id);
+      if (id) {
+        window.scrollTo(0, document.querySelector("#" + id).offsetTop);
+      }
     });
   },
 };
