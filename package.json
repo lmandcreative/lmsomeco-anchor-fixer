@@ -1,0 +1,11 @@
+{
+  "name": "@lmsomeco/anchor-fixer",
+  "version": "1.0.1",
+  "description": "Fixes anchor links when using vue hash router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Niko Peltoniemi <niko.peltoniemi@lmsomeco.fi>",
+  "license": "ISC"
+}
